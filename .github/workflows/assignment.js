@@ -1,0 +1,89 @@
+/* function space() {
+    document.write("<br>");
+}
+let userinput = +prompt("Enter 1st Vale:- ");
+let userinput2= +prompt("Enter 2nd Value:- ");
+if(userinput === userinput2){
+document.write("Both numbers are equal");
+}else if(userinput >userinput2){
+    document.write(userinput+"  :-1st Value is Greater than 2nd  "+userinput2);
+    space();
+    document.write(userinput+"is greater");
+}else if(userinput2 >userinput){
+    document.write(userinput2+"  :-2nd Value is Greater than First  "+userinput);
+    space();
+    document.write(userinput2+"is greater");
+}else{
+    document.write("please enter correct value");
+}
+ */
+
+///q#2
+/* let a=+prompt("Enter 1st Number:-");
+//document.write(a=Math.sign());
+if(a>0){
+    document.write("The sign is +");
+
+}else if(a ===0){
+    document.write("the number is zero");
+
+}else{
+    document.write("The sign is -");
+} */
+//q#3
+/* let num1=+prompt("Enter 1st Number");
+let num2=+prompt("Enter 2nd Number");
+let num3=+prompt("Enter 3rd Number");
+let num4=+prompt("Enter 4th Number");
+let num5=+prompt("Enter 5th Number");
+let largestNum = Math.max(num1, num2, num3, num4, num5);
+
+document.write("The largest number is: " + largestNum); */
+
+//q4
+/* for (let i = 0; i <= 15; i++) {
+    if (i%2===0) {
+        document.write(i+" is even<br>");
+    }else{
+        document.write(i+" is odd<br>");
+    }
+    
+} */
+
+//q#5
+
+/* let marks=+prompt("Enter Marks For Checking Grade:- ");
+if (marks >90 && marks<=100) {
+    document.write("A Grade");
+} else if(marks >80 && marks<=90){
+    document.write("B Grade");
+}else if(marks >70 && marks<=80){
+    document.write("C Grade");
+}else if(marks >60 && marks<=70){
+    document.write("D Grade");
+}else if(marks<=60){
+    document.write("F Grade");
+}else{
+    document.write("please enter marks between 0 to 100");
+    
+} */
+//q#6
+/* for(let i=0;i<=100;i++){
+    if(i%3===0 && i%5===0){
+        document.write("FizzBuzz");
+    }else if (i%3===0) {
+        document.write("Fizz");
+    }else if (i%5===0) {
+        document.write("Buzz");
+    }else{
+        document.write(i);
+    }
+} */
+//q#7
+/* for (var i = 1; i <= 5; i++) {
+    var row = "<br>";
+    for (var j = 1; j <= i; j++) {
+      row += "* ";
+    }
+    document.write(row);
+  } */
